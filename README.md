@@ -22,7 +22,7 @@ Um script que faz as aulas da plataforma "Me Salva" automaticamente!.
 
 ## Estatísticas do GitHub 📊
 
-<div align="center" style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center;">
   <img src="https://github-readme-stats.vercel.app/api?username=egoficial&show_icons=true&theme=dark" height="150" alt="GitHub Stats"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=egoficial&layout=compact&theme=dark" height="150" alt="Top Languages"/>
 </div>
