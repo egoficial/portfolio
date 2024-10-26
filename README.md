@@ -1,10 +1,8 @@
-# Bem-vindo ao Meu Portfólio! 🚀
+<h1 align="center">Bem-vindo ao Meu Portfólio! 🚀</h1>
+<p align="center">Olá! Sou Eduardo Guilherme, desenvolvedor web apaixonado por criar soluções inovadoras e funcionais. Este repositório apresenta alguns dos meus principais projetos.</p>
 
-Olá! Sou Eduardo Guilherme, desenvolvedor web apaixonado por criar soluções inovadoras e funcionais. Este repositório apresenta alguns dos meus principais projetos.
-
-## Tecnologias que Utilizo 💻
-
-<div style="display: flex; justify-content: center;">
+<h1 align="center">Tecnologias que Utilizo 💻</h1>
+<div align="center" style="display: flex; justify-content: center;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" height="42" alt="HTML5"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" height="42" alt="CSS3"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="42" alt="Sass"/>
@@ -12,26 +10,28 @@ Olá! Sou Eduardo Guilherme, desenvolvedor web apaixonado por criar soluções i
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" height="42" alt="Git"/>
 </div>
 
-## Projetos Destacados 🌟
+<h1 align="center">Projetos Destacados 🌟</h1>
+<div align="center" style="display: flex; flex-direction: column; align-items: center;">
+  <h1 align="center">Projeto 1: Nome do Projeto</h1>
+  <p align="center">Descrição curta do projeto e suas funcionalidades principais.</p>
+  <a align="center" href="https://linkdoproj1.com" target="_blank">🔗 Acesse o Projeto</a>
+  <hr>
+  <h1 align="center">Projeto 2: Nome do Projeto</h1>
+  <p align="center">Descrição curta do projeto e suas funcionalidades principais.</p>
+  <a align="center" href="https://linkdoproj2.com" target="_blank">🔗 Acesse o Projeto</a>
+  <hr>
+  <h1 align="center">Projeto 3: Nome do Projeto</h1>
+  <p align="center">Descrição curta do projeto e suas funcionalidades principais.</p>
+  <a align="center" href="https://linkdoproj3.com" target="_blank">🔗 Acesse o Projeto</a>
+</div>
 
-### [Projeto 1: Nome do Projeto](https://linkdoproj1.com)
-Descrição curta do projeto e suas funcionalidades principais. 
-
-### [Projeto 2: Nome do Projeto](https://linkdoproj2.com)
-Descrição curta do projeto e suas funcionalidades principais.
-
-### [Projeto 3: Nome do Projeto](https://linkdoproj3.com)
-Descrição curta do projeto e suas funcionalidades principais.
-
-## Estatísticas do GitHub 📊
-
+<h1 align="center">Estatísticas do GitHub 📊</h1>
 <div align="center" style="display: flex; justify-content: center;">
   <img src="https://github-readme-stats.vercel.app/api?username=egoficial&show_icons=true&theme=dark" height="150" alt="GitHub Stats"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=egoficial&layout=compact&theme=dark" height="150" alt="Top Languages"/>
 </div>
 
-## Entre em Contato 📬
-
+<h1 align="center">Entre em Contato 📬</h1>
 <div align="center" style="display: flex; justify-content: center;">
   <a href="https://www.youtube.com/@EgOnYoutube" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&color=FF0000&labelColor=&style=for-the-badge" height="35" alt="YouTube"/>
