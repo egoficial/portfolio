@@ -22,14 +22,14 @@ Um script que faz as aulas da plataforma "Me Salva" automaticamente!.
 
 ## Estatísticas do GitHub 📊
 
-<div align="center" style="display: flex; justify-content: center;">
-  <img src="https://github-readme-stats.vercel.app/api?username=egoficial&show_icons=true&theme=dark" height="150" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=egoficial&layout=compact&theme=dark" height="150" alt="Top Languages"/>
+<div style="display: flex; justify-content: center;">
+  <img src="https://github-readme-stats.vercel.app/api?username=egoficial&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=pt-br&hide_border=true" height="150" alt="stats graph" style="margin: 0; border: none;" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=egoficial&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=true" height="150" alt="languages graph" style="margin: 0; border: none;" />
 </div>
 
 ## Entre em Contato 📬
 
-<div align="center" style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center;">
   <a href="https://www.youtube.com/@EgOnYoutube" target="_blank" style="text-decoration: none;">
     <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&color=FF0000&labelColor=&style=for-the-badge" height="35" alt="YouTube"/>
   </a>
