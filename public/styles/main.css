@@ -67,6 +67,8 @@ html, body {
   height: auto;
   width: 100vw;
   background-color: #000000;
+  background-image: url("../../assets/images/background.svg");
+  background-attachment: fixed;
   overflow-y: scroll;
   overflow-x: hidden;
 }
