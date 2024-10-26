@@ -14,14 +14,11 @@ Olá! Sou Eduardo Guilherme, desenvolvedor web apaixonado por criar soluções i
 
 ## Projetos Destacados 🌟
 
-### [Projeto 1: Nome do Projeto](https://linkdoproj1.com)
-Descrição curta do projeto e suas funcionalidades principais. 
+### [Alura Maker: Nome do Projeto](https://github.com/egoficial/alura-maker)
+Um script que faz as aulas da plataforma "Alura" automaticamente!.
 
-### [Projeto 2: Nome do Projeto](https://linkdoproj2.com)
-Descrição curta do projeto e suas funcionalidades principais.
-
-### [Projeto 3: Nome do Projeto](https://linkdoproj3.com)
-Descrição curta do projeto e suas funcionalidades principais.
+### [Me Salva Maker: Nome do Projeto](https://github.com/egoficial/me-salva-maker)
+Um script que faz as aulas da plataforma "Me Salva" automaticamente!.
 
 ## Estatísticas do GitHub 📊
 
