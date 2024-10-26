@@ -1,0 +1,11 @@
+//? COMPONENTS
+ @use "./components/header" as *;
+ @use "./components/footer" as *;
+
+//? SECTIONS
+ @use "./sections/home" as *;
+
+//? HOOKS
+ @use "./hooks/default" as *;
+ @use "./hooks/variables" as *;
+ @use "./hooks/classes" as *;

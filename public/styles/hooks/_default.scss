@@ -1,0 +1,45 @@
+//? IMPORTS
+ @use "./variables" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+
+    color: $neutral-2;
+    font-family: monospace, sans-serif;
+    box-sizing: border-box;
+
+    font-weight: lighter;
+
+    &::-webkit-scrollbar {
+        background-color: #0e0e0e;
+        width: 7px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgb(32, 32, 32);
+        border-radius: 20px;
+    }
+
+    &::-webkit-scrollbar-button {
+        display: none;
+    }
+
+    &::-webkit-scrollbar-corner {
+        background-color: #0e0e0e;
+    }
+}
+
+html, body {
+    height: auto;
+    width: 100vw;
+    background-color: $background-color;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

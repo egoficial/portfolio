@@ -1,0 +1,98 @@
+header {
+  display: flex;
+  height: 96px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+}
+header div#logo {
+  margin-left: 10vw;
+  font-weight: bolder;
+}
+header div#logo p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+header nav {
+  margin-right: 10vw;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin-left: 30px;
+}
+header nav ul li p {
+  font-weight: bold;
+}
+
+section#home {
+  height: 85vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  color: rgba(227, 228, 230, 0.4941176471);
+  font-family: monospace, sans-serif;
+  box-sizing: border-box;
+  font-weight: lighter;
+}
+*::-webkit-scrollbar {
+  background-color: #0e0e0e;
+  width: 7px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(32, 32, 32);
+  border-radius: 20px;
+}
+*::-webkit-scrollbar-button {
+  display: none;
+}
+*::-webkit-scrollbar-corner {
+  background-color: #0e0e0e;
+}
+
+html, body {
+  height: auto;
+  width: 100vw;
+  background-color: #000000;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.header-active {
+  background: linear-gradient(to right, #BC3CD8, #C54B8C);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1px solid rgba(227, 228, 230, 0.4941176471);
+}
+
+.header-inative {
+  color: #E3E4E6;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #BC3CD8, #C54B8C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+span {
+  color: #E3E4E6;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */

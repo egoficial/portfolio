@@ -1,0 +1,29 @@
+//? IMPORTS
+ @use "./variables" as *;
+
+.header-active {
+    background: $primary-color;
+    background-clip: text;
+    color: transparent;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid $neutral-2;
+};
+
+.header-inative {
+    color: $neutral-1;
+};
+
+.gradient-text {
+    background: $primary-color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+};
+
+span {
+    color: $neutral-1;
+    font-weight: bold;
+}
