@@ -14,10 +14,10 @@ Olá! Sou Eduardo Guilherme, desenvolvedor web apaixonado por criar soluções i
 
 ## Projetos Destacados 🌟
 
-### [Alura Maker: Nome do Projeto](https://github.com/egoficial/alura-maker)
+### [Alura Maker](https://github.com/egoficial/alura-maker)
 Um script que faz as aulas da plataforma "Alura" automaticamente!.
 
-### [Me Salva Maker: Nome do Projeto](https://github.com/egoficial/me-salva-maker)
+### [Me Salva Maker](https://github.com/egoficial/me-salva-maker)
 Um script que faz as aulas da plataforma "Me Salva" automaticamente!.
 
 ## Estatísticas do GitHub 📊
