@@ -51,7 +51,8 @@ header {
                 border-radius: 4px;
                 border: 1px solid $neutral-2;
 
-                background-image: linear-gradient(to right, #BC3CD8, #C54B8C);
+                background-image: linear-gradient(40deg, #bb3cd8, #ffffff31);
+                box-shadow: 0px 0px 10px #bb3cd8;
 
                 p {
                     color: #ffffff;
