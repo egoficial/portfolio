@@ -1,9 +1,14 @@
 header {
+  position: fixed;
   display: flex;
+  top: 0px;
   height: 96px;
   width: 100vw;
   align-items: center;
   justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.8705882353);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
 }
 header div#logo {
   margin-left: 10vw;
@@ -18,12 +23,28 @@ header nav {
 }
 header nav ul {
   display: flex;
+  align-items: center;
 }
 header nav ul li {
   margin-left: 30px;
+  cursor: pointer;
 }
 header nav ul li p {
+  display: flex;
   font-weight: bold;
+}
+header nav ul li img {
+  width: 15px;
+  margin-left: 5px;
+}
+header nav ul li#storeButton {
+  padding: 7px 20px;
+  border-radius: 4px;
+  border: 1px solid rgba(227, 228, 230, 0.4941176471);
+  background-image: linear-gradient(to right, #BC3CD8, #C54B8C);
+}
+header nav ul li#storeButton p {
+  color: #ffffff;
 }
 
 section#home {
@@ -34,6 +55,7 @@ section#home {
   justify-content: center;
   text-align: center;
   font-size: 2em;
+  margin-top: 96px;
 }
 
 * {
@@ -64,7 +86,7 @@ section#home {
 }
 
 html, body {
-  height: auto;
+  height: 300vh;
   width: 100vw;
   background-color: #000000;
   background-image: url("../../assets/images/background.svg");
@@ -73,7 +95,7 @@ html, body {
   overflow-x: hidden;
 }
 
-.header-active {
+.headerActive {
   background: linear-gradient(to right, #BC3CD8, #C54B8C);
   background-clip: text;
   color: transparent;
@@ -82,11 +104,7 @@ html, body {
   border-bottom: 1px solid rgba(227, 228, 230, 0.4941176471);
 }
 
-.header-inative {
-  color: #E3E4E6;
-}
-
-.gradient-text {
+.gradientText {
   background: linear-gradient(to right, #BC3CD8, #C54B8C);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

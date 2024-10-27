@@ -1,10 +1,18 @@
+//? IMPORTS
+ @use "../hooks/variables" as *;
+
 header {
+    position: fixed;
     display: flex;
+    top: 0px;
+
     height: 96px;
     width: 100vw;
-
     align-items: center;
+
     justify-content: space-between;
+    background-color: #000000de;
+    backdrop-filter: blur(4px);
 
     div#logo {
         margin-left: 10vw;
@@ -21,12 +29,32 @@ header {
 
         ul {
             display: flex;
+            align-items: center;
 
             li {
                 margin-left: 30px;
+                cursor: pointer;
 
                 p {
+                    display: flex;
                     font-weight: bold;
+                }
+
+                img {
+                    width: 15px;
+                    margin-left: 5px;
+                }
+            }
+
+            li#storeButton {
+                padding: 7px 20px;
+                border-radius: 4px;
+                border: 1px solid $neutral-2;
+
+                background-image: linear-gradient(to right, #BC3CD8, #C54B8C);
+
+                p {
+                    color: #ffffff;
                 }
             }
         }
