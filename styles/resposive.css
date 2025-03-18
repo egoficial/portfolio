@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+/* Desktop - Medium */
+@media screen and (max-width: 2100px) {
+    header {
+        width: 80vw;
+    }
+
+    section#home {
+        width: 80vw;
+    }
+
+    section#home > article#main-left > h1 {
+        font-size: 1.7em;
+    }
+
+    section#home > aside#main-right > img {
+        width: 500px;
+    }
+}
