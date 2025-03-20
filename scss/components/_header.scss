@@ -1,0 +1,56 @@
+@use "../public/variables" as *;
+
+header {
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(10px);
+    background-color: $background-color;
+    -webkit-backdrop-filter: blur(10px);
+
+    nav {
+        height: 100%;
+        width: auto;
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+            align-items: center;
+
+            li {
+                padding: 0px 20px;
+                display: flex;
+                cursor: default;
+
+                p {
+                    padding-left: 3px;
+                    cursor: pointer;
+
+                    &:hover {
+                        border-bottom: 1px solid $primary-color;
+                    }
+                }
+            }
+
+            select {
+                background-color: $background-color;
+                color: $primary-text-color;
+                cursor: pointer;
+                padding: 10px 20px;
+                font-weight: bolder;
+                font-size: 1em;
+            }
+        }
+    }
+
+    section#logo {
+        p {
+            font-weight: bolder;
+        }
+    }
+}

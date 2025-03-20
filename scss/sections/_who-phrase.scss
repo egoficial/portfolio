@@ -1,0 +1,46 @@
+@use "../public/variables" as *;
+
+article#who-prhase {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    section#top {
+        fieldset {
+            border: 1px solid $primary-border-color;
+            padding: 30px;
+
+            legend {
+                font-size: 3em;
+                line-height: 0;
+            }
+        }
+    }
+
+    section#bottom {
+        width: 100%;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+
+        fieldset {
+            border-bottom: 1px solid $primary-border-color;
+            border-left: 1px solid $primary-border-color;
+            border-right: 1px solid $primary-border-color;
+            padding: 30px;
+            margin-top: -4px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            legend {
+                font-size: 3em;
+                line-height: 0.1em;
+                background-color: black;
+            }
+        }
+    }
+}

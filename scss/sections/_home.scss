@@ -1,0 +1,41 @@
+@use "../public/variables" as *;
+
+section#home {
+    width: 70vw;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10vh;
+
+    article#main-left {
+        h1 {
+            font-size: 2em;
+        }
+
+        p {
+            color: $secondary-text-color;
+            padding-top: 20px;
+        }
+    }
+
+    aside#main-right {
+        img {
+            width: 700px;
+        }
+
+        article#image-phrase {
+            border: 1px solid $primary-border-color;
+            padding: 5px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            div#image-phrase-square {
+                background-color: $primary-color;
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+}

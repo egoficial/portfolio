@@ -1,0 +1,15 @@
+@use "../public/variables" as *;
+
+// CLASSES
+.active {
+    color: $primary-text-color;
+}
+
+.inative {
+    color: $secondary-text-color;
+}
+
+// TAGS
+span {
+    color: $primary-color;
+}
