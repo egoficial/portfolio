@@ -1,0 +1,37 @@
+@use "../public/variables" as *;
+
+div#social-links {
+
+    position: fixed;
+    top: 0;
+    left: 130px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    div#social-line {
+        height: 180px;
+        border: 1px solid $primary-border-color;
+
+
+    }
+
+    ul#social-links {
+        li {
+            img {
+                background-color: white;
+                border-radius: 50%;
+                border: 1px solid $primary-border-color;
+                width: 30px;
+
+                &:hover {
+                    border: 1px solid $primary-color;
+                    background-color: $primary-color;
+                    box-shadow: 0px 0px 20px $primary-color;
+                    transition: all 0.1s;
+                }
+            }
+        }
+    }
+}
