@@ -1,22 +1,27 @@
 @use "../public/variables" as *;
 
 header {
-    width: 70vw;
-    height: 10vh;
+    width: 80vw;
+    height: 7vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    top: 0;
+    top: 40px;
     backdrop-filter: blur(10px);
-    background-color: $background-color;
     -webkit-backdrop-filter: blur(10px);
+    border: 1px solid $primary-color;
+
+    section#logo {
+        padding-left: 5vw;
+    }
 
     nav {
         height: 100%;
         width: auto;
         display: flex;
         align-items: center;
+        padding-right: 5vw;
 
         ul {
             display: flex;
